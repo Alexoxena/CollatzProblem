@@ -5,7 +5,7 @@ public class CollatzProblem {
 		
 		int n;	//Variable n
 	
-		for(int i=1; i<=1000; i++)	{//Collatz Vermutung für alle Zahlen von 1 bis 1000
+		for(int i=1; i<=100; i++)	{//Collatz Vermutung für alle Zahlen von 1 bis 1000
 	
 			n=i;
 	
@@ -13,7 +13,7 @@ public class CollatzProblem {
 	
 			do{	
 	
-				if(n%2>0){ //           wenn Zahl ungerde n*3+1
+				if(n%2>0){ //wenn Zahl ungerde n*3+1
 					n = 3*n+1;}
 	
 				else{            //wenn Zahl gerade n/2
